@@ -49,7 +49,7 @@ namespace SendEmail
             sqlconnection.Open();
             isSend.ExecuteReader();
             sqlconnection.Close();
-
+            Environment.Exit(0);
         }
     }
 }
